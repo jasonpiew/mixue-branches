@@ -15,5 +15,8 @@ To use this project, you will need to have the following installed on your machi
 # Customizing the Search
 You can customize the search by modifying the location and radius parameters in the notebook script file. The location parameter determines the center of the search area, and the radius parameter determines the size of the search area (in meters).
 
-Further Reading
+# Further Reading
 For more information on using the Google Maps API with Python, you can refer to the official documentation.
+
+### Problems
+I have to run the notebook multiple times since Google Maps API restricts access to 60 results per run, the problem is that I unsuccessfully filtering out the same results from happening twice, If you have an approach to filter out the places_id to appear more than once, please do let me know, Thank you and happy learning :D
